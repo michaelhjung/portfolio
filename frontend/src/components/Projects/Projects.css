@@ -28,6 +28,7 @@
 
 .proj-container:hover {
     animation: ease-scale 0.13s ease-in 0s forwards;
+    z-index: 2;
 }
 @keyframes ease-scale {
     0% {

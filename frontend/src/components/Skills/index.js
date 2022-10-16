@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import "./Skills.css"
 import js from "../../assets/icons/JavaScript.svg"
 import node from "../../assets/icons/NodeJS-Light.svg"
@@ -13,6 +14,23 @@ import postgres from "../../assets/icons/PostgreSQL-Light.svg"
 import heroku from "../../assets/icons/Heroku.svg"
 
 export default function Skills() {
+
+    useEffect(() => {
+        const skills = document.querySelectorAll(".list-item--skills");
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                entry.target.classList.toggle("show-skill", entry.isIntersecting);
+                // if (entry.isIntersecting) observer.unobserve(entry.target);
+            });
+        }, { threshold: 0.7 });
+
+        skills.forEach(skill => {
+            observer.observe(skill);
+        });
+    }, []);
+
+
     return (
         <div className="skills-container" >
             <h2>Skills</h2>
