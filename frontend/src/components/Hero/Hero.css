@@ -1,0 +1,45 @@
+.hero-container {
+    position: relative;
+}
+
+#hero-img {
+    width: 800px;
+    border-radius: 250px;
+    opacity: 0.90;
+}
+
+.hero-text {
+    position: absolute;
+    font-size: 2.5rem;
+    color: #FFF;
+    background-color: rgba(120, 120, 120, 0.3);
+    border-radius: 25px;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+#hero-heading {
+    margin: 0;
+    font-size: 3rem;
+    top: 3%;
+    left: 10%;
+    color: cadetblue;
+    background-color: transparent;
+}
+
+.greeting {
+    left: 35%;
+    animation: fade-in-up 1.2s ease-in-out 0s forwards;
+}
+
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        top: 58%;
+    }
+
+    100% {
+        opacity: 1;
+        top: 50%;
+    }
+}
