@@ -16,19 +16,19 @@ export default function Skills() {
     return (
         <div className="skills-container" >
             <h2>Skills</h2>
-            <ul id="list--skills" className="list">
-                <li id="list-item--skills" className="list-item"><img id="img--skills" className="img" src={js} alt="js" /></li>
-                <li id="list-item--skills" className="list-item"><img id="img--skills" className="img" src={node} alt="node" /></li>
-                <li id="list-item--skills" className="list-item"><img id="img--skills" className="img" src={python} alt="python" /></li>
-                <li id="list-item--skills" className="list-item"><img id="img--skills" className="img" src={html} alt="html" /></li>
-                <li id="list-item--skills" className="list-item"><img id="img--skills" className="img" src={css} alt="css" /></li>
-                <li id="list-item--skills" className="list-item"><img id="img--skills" className="img" src={react} alt="react" /></li>
-                <li id="list-item--skills" className="list-item"><img id="img--skills" className="img" src={redux} alt="redux" /></li>
-                <li id="list-item--skills" className="list-item"><img id="img--skills" className="img" src={express} alt="express" /></li>
-                <li id="list-item--skills" className="list-item"><img id="img--skills" className="img" src={flask} alt="flask" /></li>
-                <li id="list-item--skills" className="list-item"><img id="img--skills" className="img" src={sqlite} alt="sqlite" /></li>
-                <li id="list-item--skills" className="list-item"><img id="img--skills" className="img" src={postgres} alt="postgres" /></li>
-                <li id="list-item--skills" className="list-item"><img id="img--skills" className="img" src={heroku} alt="heroku" /></li>
+            <ul className="list list--skills">
+                <li className="list-item list-item--skills"><img className="img img--skills" src={js} alt="js" /></li>
+                <li className="list-item list-item--skills"><img className="img img--skills" src={node} alt="node" /></li>
+                <li className="list-item list-item--skills"><img className="img img--skills" src={python} alt="python" /></li>
+                <li className="list-item list-item--skills"><img className="img img--skills" src={html} alt="html" /></li>
+                <li className="list-item list-item--skills"><img className="img img--skills" src={css} alt="css" /></li>
+                <li className="list-item list-item--skills"><img className="img img--skills" src={react} alt="react" /></li>
+                <li className="list-item list-item--skills"><img className="img img--skills" src={redux} alt="redux" /></li>
+                <li className="list-item list-item--skills"><img className="img img--skills" src={express} alt="express" /></li>
+                <li className="list-item list-item--skills"><img className="img img--skills" src={flask} alt="flask" /></li>
+                <li className="list-item list-item--skills"><img className="img img--skills" src={sqlite} alt="sqlite" /></li>
+                <li className="list-item list-item--skills"><img className="img img--skills" src={postgres} alt="postgres" /></li>
+                <li className="list-item list-item--skills"><img className="img img--skills" src={heroku} alt="heroku" /></li>
             </ul>
         </div>
     )

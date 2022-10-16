@@ -5,11 +5,12 @@
     align-items: center;
 }
 
-#list--skills {
+.list--skills {
     display: flex;
     opacity: 0;
     animation: slide-in-left 0.7s ease-in-out 0.8s forwards;
 }
+
 @keyframes slide-in-left {
     0% {
         opacity: 0;
@@ -22,15 +23,15 @@
     }
 }
 
-#list-item--skills {
+.list-item--skills {
     margin-right: 10px;
 }
 
-#list-item--skills:last-child {
+.list-item--skills:last-child {
     margin-right: 0px;
 }
 
-#img--skills {
+.img--skills {
     width: 60px;
     border-radius: 15px;
     box-shadow: 4px 4px 6px #CCC;
