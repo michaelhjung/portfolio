@@ -1,5 +1,6 @@
 .hero-container {
     position: relative;
+    margin-top: 25px;
 }
 
 #hero-img {
@@ -29,7 +30,7 @@
 
 .greeting {
     left: 35%;
-    animation: fade-in-up 1.2s ease-in-out 0s forwards;
+    animation: fade-in-up 1.2s ease-in-out 0.2s forwards;
 }
 
 @keyframes fade-in-up {

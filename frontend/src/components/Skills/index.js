@@ -23,7 +23,7 @@ export default function Skills() {
                 entry.target.classList.toggle("show-skill", entry.isIntersecting);
                 // if (entry.isIntersecting) observer.unobserve(entry.target);
             });
-        }, { threshold: 0.7 });
+        }, { threshold: 0.8 });
 
         skills.forEach(skill => {
             observer.observe(skill);
