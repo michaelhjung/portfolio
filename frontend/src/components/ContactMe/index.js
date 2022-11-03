@@ -1,6 +1,6 @@
 import "./ContactMe.css"
-import linkedin from '../../assets/icons/LinkedIn.svg';
-import github from '../../assets/icons/Github-Dark.svg';
+import linkedin from '../../assets/icons/skills/LinkedIn.svg';
+import github from '../../assets/icons/skills/Github-Dark.svg';
 
 export default function ContactMe() {
     return (

@@ -18,40 +18,40 @@
     margin-right: 10px;
 }
 .list-item--skills:nth-child(1) {
-    transition: 0.1s 0.1s ease-in;
+    transition: 0.1s ease-in;
 }
 .list-item--skills:nth-child(2) {
-    transition: 0.2s 0.1s ease-in;
+    transition: 0.2s ease-in;
 }
 .list-item--skills:nth-child(3) {
-    transition: 0.3s 0.1s ease-in;
+    transition: 0.3s ease-in;
 }
 .list-item--skills:nth-child(4) {
-    transition: 0.4s 0.1s ease-in;
+    transition: 0.4s ease-in;
 }
 .list-item--skills:nth-child(5) {
-    transition: 0.5s 0.1s ease-in;
+    transition: 0.5s ease-in;
 }
 .list-item--skills:nth-child(6) {
-    transition: 0.6s 0.1s ease-in;
+    transition: 0.6s ease-in;
 }
 .list-item--skills:nth-child(7) {
-    transition: 0.65s 0.1s ease-in;
+    transition: 0.65s ease-in;
 }
 .list-item--skills:nth-child(8) {
-    transition: 0.7s 0.1s ease-in;
+    transition: 0.7s ease-in;
 }
 .list-item--skills:nth-child(9) {
-    transition: 0.75s 0.1s ease-in;
+    transition: 0.75s ease-in;
 }
 .list-item--skills:nth-child(10) {
-    transition: 0.8s 0.1s ease-in;
+    transition: 0.8s ease-in;
 }
 .list-item--skills:nth-child(11) {
-    transition: 0.85s 0.1s ease-in;
+    transition: 0.85s ease-in;
 }
 .list-item--skills:nth-child(12) {
-    transition: 0.9s 0.1s ease-in;
+    transition: 0.9s ease-in;
 }
 .list-item--skills:last-child {
     margin-right: 0px;
