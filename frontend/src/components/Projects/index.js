@@ -38,10 +38,10 @@ export default function Projects() {
                         <img
                         id="hatch-img"
                         className="img img--proj"
-                        src="https://i.imgur.com/a5sJ7qJ.gif"
+                        src="https://i.imgur.com/ubXo3wp.gif"
                         alt="project thumnail 3"
-                        onMouseOver={e => e.target.src = "https://i.imgur.com/rPdmTPd.gif"}
-                        onMouseOut={e => e.target.src = "https://i.imgur.com/a5sJ7qJ.gif"}
+                        onMouseOver={e => e.target.src = "https://i.imgur.com/Fbw0f2h.gif"}
+                        onMouseOut={e => e.target.src = "https://i.imgur.com/ubXo3wp.gif"}
                     />
                     </a>
                     <div>Hatch, a virtual escape room</div>
