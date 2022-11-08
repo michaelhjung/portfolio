@@ -1,6 +1,7 @@
 import "./ContactMe.css"
 import linkedin from '../../assets/icons/skills/LinkedIn.svg';
 import github from '../../assets/icons/skills/Github-Dark.svg';
+import angellist from '../../assets/icons/angellist.svg';
 
 export default function ContactMe() {
     return (
@@ -12,6 +13,9 @@ export default function ContactMe() {
                 </a>
                 <a className="contact-icon" href="https://github.com/michaelhjung" target="_blank" rel="noreferrer">
                     <img className="contact-icon-img" src={github} alt="github" />
+                </a>
+                <a className="contact-icon" href="https://angel.co/u/michaelhjung" target="_blank" rel="noreferrer">
+                    <img className="contact-icon-img" src={angellist} alt="angellist" />
                 </a>
             </div>
         </div>
