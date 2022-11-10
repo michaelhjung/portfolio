@@ -1,5 +1,15 @@
+.hero-about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 .hero-container {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 25px;
 }
 
@@ -14,6 +24,7 @@
     font-size: 2.5rem;
     color: #FFF;
     background-color: rgba(120, 120, 120, 0.3);
+    text-shadow: 1px 1px 30px #FFF;
     border-radius: 25px;
     padding: 5px 15px;
     text-align: center;
@@ -22,15 +33,61 @@
 #hero-heading {
     margin: 0;
     font-size: 3rem;
-    top: 3%;
-    left: 10%;
+    top: 20px;
     color: cadetblue;
     background-color: transparent;
 }
 
 .greeting {
-    left: 35%;
     animation: fade-in-up 1.2s ease-in-out 0.2s forwards;
+    transition: transform 0.3s ease-out;
+}
+
+.greeting:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.learn-more-button {
+    position: absolute;
+    top: 610px;
+    font-size: 1.4rem;
+    color: #FFF;
+    background-color: rgba(120, 120, 120, 0.3);
+    text-shadow: 1px 1px 30px #FFF;
+    border-radius: 25px;
+    padding: 5px 15px;
+    text-align: center;
+    opacity: 0;
+    animation: about-fade-in 1.2s ease-in-out 0.6s forwards;
+    transition: transform 0.3s ease-out;
+}
+
+.learn-more-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.learn-more {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    margin: 50px 25px;
+}
+
+.learn-more-pic {
+    width: 180px;
+    border-radius: 50%;
+    margin: 0px 50px 0px 0px;
+}
+
+.learn-more-text > ol {
+    align-self: flex-start;
+    margin: 15px 0px 15px 35px;
 }
 
 @keyframes fade-in-up {
@@ -43,4 +100,83 @@
         opacity: 1;
         top: 50%;
     }
+}
+
+.about-text {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #FFF;
+    text-shadow: 2px 2px 50px #555;
+}
+
+.about-hidden {
+    opacity: 0;
+}
+
+.about-fade-in {
+    animation: about-fade-in 0.8s ease-in-out 0s forwards;
+}
+
+.about-fade-out {
+    animation: about-fade-out 0.8s ease-in-out 0s forwards;
+}
+
+@keyframes about-fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes about-fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#about-text-1 {
+    top: 210px;
+    right: 350px;
+    rotate: 0deg;
+    font-size: 3rem;
+}
+#about-text-2 {
+    top: 370px;
+    left: 630px;
+    rotate: 90deg;
+    font-size: 2.7rem;
+}
+#about-text-3 {
+    top: 415px;
+    left: 105px;
+    rotate: 0deg;
+    font-size: 2rem;
+}
+#about-text-4 {
+    top: 690px;
+    left: 475px;
+    rotate: -14deg;
+    font-size: 1.7rem;
+}
+#about-text-5 {
+    top: 650px;
+    left: -50px;
+    rotate: -90deg;
+    font-size: 1.7rem;
+    /* color: #444;
+    text-shadow: 2px 2px 0px #777; */
+}
+
+#about-o {
+    font-size: 5rem;
+    opacity: 0;
+    margin-left: 5px;
 }
