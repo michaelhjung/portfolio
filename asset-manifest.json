@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9605ba43.css",
+    "main.js": "/portfolio/static/js/main.6f88450a.js",
+    "static/media/michael_audrey.png": "/portfolio/static/media/michael_audrey.d22d99ce7bf235c86ce8.png",
+    "static/media/mj.jpg": "/portfolio/static/media/mj.f9498047bec27bf08798.jpg",
+    "static/media/aa-logo.png": "/portfolio/static/media/aa-logo.2570ee1fb24d44061493.png",
+    "static/media/smu-logo.png": "/portfolio/static/media/smu-logo.8998c156289a75f1719a.png",
+    "static/media/ucb-logo.svg": "/portfolio/static/media/ucb-logo.2e8d566f4b8ffebfe59a4f89a0343e71.svg",
+    "static/media/Flask-Light.svg": "/portfolio/static/media/Flask-Light.face1f54a67ad82bcb9d937256a503ad.svg",
+    "static/media/SQLite.svg": "/portfolio/static/media/SQLite.7c48ed0de265ed5e4e6c57fca5d15375.svg",
+    "static/media/PostgreSQL-Light.svg": "/portfolio/static/media/PostgreSQL-Light.4e36b7eb1b6c8884bb87838dfb720ea9.svg",
+    "static/media/NodeJS-Light.svg": "/portfolio/static/media/NodeJS-Light.aea93409f1111d62a1eaa3347b033dda.svg",
+    "static/media/angellist.svg": "/portfolio/static/media/angellist.7c1ad38b8cf362237b1c16e8d128f8b8.svg",
+    "static/media/Github-Dark.svg": "/portfolio/static/media/Github-Dark.ac545114b938c2cab646130d25acb0fd.svg",
+    "static/media/Redux.svg": "/portfolio/static/media/Redux.556d4fbb42566c6799158500fd245914.svg",
+    "static/media/ExpressJS-Light.svg": "/portfolio/static/media/ExpressJS-Light.e667359082c6a1e7a37a4a6a67335271.svg",
+    "static/media/React-Light.svg": "/portfolio/static/media/React-Light.859310e341351502b4a2a19a19f7ad32.svg",
+    "static/media/Python-Light.svg": "/portfolio/static/media/Python-Light.2b3e1cac446d5c43d147be232d2108af.svg",
+    "static/media/LinkedIn.svg": "/portfolio/static/media/LinkedIn.a4185a982c50184b0634a12832ad6fc5.svg",
+    "static/media/JavaScript.svg": "/portfolio/static/media/JavaScript.9a071f2801f9f92598764d48c7225305.svg",
+    "static/media/CSS.svg": "/portfolio/static/media/CSS.5fcd7f5683afc0fc6d0186a083262016.svg",
+    "static/media/HTML.svg": "/portfolio/static/media/HTML.ca0db580ffd74f086f2dc2a71dacd660.svg",
+    "static/media/Heroku.svg": "/portfolio/static/media/Heroku.121dd79ec37f8fd52a7f3d9e011d6aae.svg",
+    "index.html": "/portfolio/index.html",
+    "main.9605ba43.css.map": "/portfolio/static/css/main.9605ba43.css.map",
+    "main.6f88450a.js.map": "/portfolio/static/js/main.6f88450a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9605ba43.css",
+    "static/js/main.6f88450a.js"
+  ]
+}
