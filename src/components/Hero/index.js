@@ -28,7 +28,7 @@ export default function Hero() {
         <div className='hero-about-container'>
             <div className="hero-container">
                 <img src={hero} alt="hero" id="hero-img" />
-                <h1 id="hero-heading" className="hero-text">Michael Jung, <br /> Full Stack Software Engineer</h1>
+                <h1 id="hero-heading" className="hero-text">Michael Jung, <br />Software Engineer</h1>
                 <div
                     className="hero-text greeting"
                     onClick={handleGreetingClick}
