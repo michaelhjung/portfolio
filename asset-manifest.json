@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.9605ba43.css",
-    "main.js": "/static/js/main.e41137ca.js",
+    "main.css": "/static/css/main.1116eb96.css",
+    "main.js": "/static/js/main.27164956.js",
     "static/media/michael_audrey.png": "/static/media/michael_audrey.d22d99ce7bf235c86ce8.png",
     "static/media/mj.jpg": "/static/media/mj.f9498047bec27bf08798.jpg",
     "static/media/aa-logo.png": "/static/media/aa-logo.2570ee1fb24d44061493.png",
     "static/media/smu-logo.png": "/static/media/smu-logo.8998c156289a75f1719a.png",
+    "static/media/mj-logo-dark.png": "/static/media/mj-logo-dark.9de27c4d4f2fb55b08cc.png",
+    "static/media/mj-logo.png": "/static/media/mj-logo.396bb20163fabd301050.png",
     "static/media/ucb-logo.svg": "/static/media/ucb-logo.2e8d566f4b8ffebfe59a4f89a0343e71.svg",
     "static/media/Flask-Light.svg": "/static/media/Flask-Light.face1f54a67ad82bcb9d937256a503ad.svg",
     "static/media/SQLite.svg": "/static/media/SQLite.7c48ed0de265ed5e4e6c57fca5d15375.svg",
@@ -23,11 +25,11 @@
     "static/media/CSS.svg": "/static/media/CSS.5fcd7f5683afc0fc6d0186a083262016.svg",
     "static/media/HTML.svg": "/static/media/HTML.ca0db580ffd74f086f2dc2a71dacd660.svg",
     "static/media/Heroku.svg": "/static/media/Heroku.121dd79ec37f8fd52a7f3d9e011d6aae.svg",
-    "main.9605ba43.css.map": "/static/css/main.9605ba43.css.map",
-    "main.e41137ca.js.map": "/static/js/main.e41137ca.js.map"
+    "main.1116eb96.css.map": "/static/css/main.1116eb96.css.map",
+    "main.27164956.js.map": "/static/js/main.27164956.js.map"
   },
   "entrypoints": [
-    "static/css/main.9605ba43.css",
-    "static/js/main.e41137ca.js"
+    "static/css/main.1116eb96.css",
+    "static/js/main.27164956.js"
   ]
 }
