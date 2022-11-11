@@ -2,7 +2,7 @@ import "./Projects.css"
 
 export default function Projects() {
     return (
-        <section className="projects-container" id="project" >
+        <section className="projects-container" id="projects" >
             <h2>Projects</h2>
             <div className="carousel">
                 <div id="proj-1-container" className="proj-container carousel-item">
