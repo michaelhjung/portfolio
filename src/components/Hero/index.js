@@ -4,8 +4,7 @@ import hero from "../../assets/michael_audrey.png";
 import profilePic from "../../assets/mj.jpg";
 import "./Hero.css";
 
-export default function Hero() {
-    const [showLearnMore, setShowLearnMore] = useState(false);
+export default function Hero({ showLearnMore, setShowLearnMore }) {
     const showAbout = useRef(false);
     const handleGreetingClick = () => {
         const aboutTextList = document.querySelectorAll('.about-text');
@@ -20,12 +19,13 @@ export default function Hero() {
             showAbout.current = false;
         }
     };
+
     const handleLearnMoreClick = () => {
         setShowLearnMore(true);
     }
 
     return (
-        <div className='hero-about-container'>
+        <div className='hero-about-container' id="about">
             <div className="hero-container">
                 <img src={hero} alt="hero" id="hero-img" />
                 <h1 id="hero-heading" className="hero-text">Michael Jung, <br />Software Engineer</h1>

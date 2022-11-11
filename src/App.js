@@ -10,6 +10,7 @@ import mjLogoDark from "./assets/logos/mj-logo-dark.png";
 
 function App() {
     const [showProfileMenu, setShowProfileMenu] = useState(false);
+    const [showLearnMore, setShowLearnMore] = useState(false);
     const handleProfileButtonClick = () => {
         if (!showProfileMenu) setShowProfileMenu(true);
         else setShowProfileMenu(false);
@@ -37,11 +38,11 @@ function App() {
                 onClick={handleProfileButtonClick}
             />
             {showProfileMenu && (
-                <ProfileMenu />
+                <ProfileMenu showLearnMore={showLearnMore} setShowLearnMore={setShowLearnMore} />
             )}
 
 
-            <Hero />
+            <Hero showLearnMore={showLearnMore} setShowLearnMore={setShowLearnMore} />
             <Skills />
             <Projects />
             <Education />
