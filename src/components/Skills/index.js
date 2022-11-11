@@ -32,7 +32,7 @@ export default function Skills() {
 
 
     return (
-        <div className="skills-container" >
+        <section className="skills-container" id="skills" >
             <h2>Skills</h2>
             <ul className="list list--skills">
                 <li className="list-item list-item--skills"><img className="img img--skills" src={js} alt="js" /></li>
@@ -48,6 +48,6 @@ export default function Skills() {
                 <li className="list-item list-item--skills"><img className="img img--skills" src={postgres} alt="postgres" /></li>
                 <li className="list-item list-item--skills"><img className="img img--skills" src={heroku} alt="heroku" /></li>
             </ul>
-        </div>
+        </section>
     )
 }

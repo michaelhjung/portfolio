@@ -45,20 +45,15 @@ export default function Hero() {
                                 alt="michael"
                             />
                             <div className='learn-more-text'>
-                                Hello! Thanks for taking the time to review my portfolio.
-                                <br />
-                                <br />
                                 I'm a UC Berkeley alumnus and a Master's-prepared Nurse turned Software Engineer. Why the career change?
                                 Two of my biggest fills are:
                                 <ol>
                                     <li>Creating something from nothing</li>
-                                    <li>Devising ways to improve efficiency and organization</li>
+                                    <li>Discovering clever ways to improve efficiency</li>
                                 </ol>
                                 What I love about coding is that I get to do both!
-                                I can take a completely blank file and turn it into an entire interactive web application.
-                                Not only that, but there are endless opportunities to grow and improve it.
                                 I'm excited to share with you my work and am more than happy to chat about any questions you may have.
-                                Thanks for stopping by!
+                                Check out 3 of my projects below, each completed within 1-2 week timeframes.
                             </div>
                         </div>
                     </Modal>

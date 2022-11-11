@@ -5,7 +5,7 @@ import angellist from '../../assets/icons/angellist.svg';
 
 export default function ContactMe() {
     return (
-        <div className="contact-me-container" >
+        <section className="contact-me-container" id="contact-me" >
             <h2>Contact Me</h2>
             <div className="contact-me-icons-container">
                 <a className="contact-icon" href="https://www.linkedin.com/in/michael-h-jung/" target="_blank" rel="noreferrer">
@@ -18,6 +18,6 @@ export default function ContactMe() {
                     <img className="contact-icon-img" src={angellist} alt="angellist" />
                 </a>
             </div>
-        </div>
+        </section>
     )
 }

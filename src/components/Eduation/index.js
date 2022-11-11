@@ -22,7 +22,7 @@ export default function Education() {
 
 
     return (
-        <div className='education-container'>
+        <section className='education-container' id="education" >
             <h2>Education</h2>
             <div className='edu-icons-container'>
                 <div className='edu-icon-wrapper'>
@@ -38,6 +38,6 @@ export default function Education() {
                     <span className="edu-degree">Full Stack Software Engineering Program</span>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

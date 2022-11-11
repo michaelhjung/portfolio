@@ -2,7 +2,7 @@ import "./Projects.css"
 
 export default function Projects() {
     return (
-        <div className="projects-container" >
+        <section className="projects-container" id="project" >
             <h2>Projects</h2>
             <div className="carousel">
                 <div id="proj-1-container" className="proj-container carousel-item">
@@ -47,6 +47,6 @@ export default function Projects() {
                     <div>Hatch, a virtual escape room</div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
