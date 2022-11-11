@@ -17,12 +17,12 @@
 }
 
 
-/* PROFILE BUTTON & MENU */
+/* PROFILE BUTTON */
 #mj-logo {
     width: 125px;
     position: fixed;
     top: 30px;
-    right: 30px;
+    right: 45px;
     border-radius: 50%;
     box-shadow: 0px 0px 20px #555;
     z-index: 2;
@@ -30,28 +30,4 @@
 
 #mj-logo:hover {
     cursor: pointer;
-}
-
-.profile-menu {
-    position: fixed;
-    top: 170px;
-    right: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    background-color: #999;
-    padding: 20px;
-    border-radius: 20px;
-    z-index: 2;
-}
-
-.profile-menu a {
-    text-decoration: none;
-    color: #FFF;
-}
-
-.profile-menu a:hover {
-    cursor: pointer;
-    color: #000;
 }

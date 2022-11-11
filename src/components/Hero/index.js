@@ -4,7 +4,7 @@ import hero from "../../assets/michael_audrey.png";
 import profilePic from "../../assets/mj.jpg";
 import "./Hero.css";
 
-export default function Hero({ showLearnMore, setShowLearnMore }) {
+export default function Hero({ showLearnMore, setShowLearnMore, mjLogo, mjLogoDark }) {
     const showAbout = useRef(false);
     const handleGreetingClick = () => {
         const aboutTextList = document.querySelectorAll('.about-text');
@@ -24,6 +24,12 @@ export default function Hero({ showLearnMore, setShowLearnMore }) {
         setShowLearnMore(true);
     }
 
+    const handleCloseLearnMoreModal = () => {
+        setShowLearnMore(false);
+        const profileButtonImg = document.getElementById("mj-logo");
+        profileButtonImg.src = mjLogo;
+    }
+
     return (
         <div className='hero-about-container' id="about">
             <div className="hero-container">
@@ -37,7 +43,7 @@ export default function Hero({ showLearnMore, setShowLearnMore }) {
                     learn more
                 </div>
                 {showLearnMore && (
-                    <Modal onClose={() => setShowLearnMore(false)}>
+                    <Modal onClose={handleCloseLearnMoreModal}>
                         <div className='learn-more'>
                             <img
                                 className='learn-more-pic'

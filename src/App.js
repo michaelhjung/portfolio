@@ -18,6 +18,8 @@ function App() {
 
     const closeProfileMenu = () => {
         setShowProfileMenu(false);
+        const profileButtonImg = document.getElementById("mj-logo");
+        profileButtonImg.src = mjLogo;
     }
 
     useEffect(() => {
@@ -34,7 +36,7 @@ function App() {
                 alt="mj"
                 id="mj-logo"
                 onMouseEnter={(e) => e.target.src = mjLogoDark}
-                onMouseLeave={(e) => e.target.src = mjLogo}
+                onMouseLeave={(e) => showProfileMenu ? e.target.src = mjLogoDark : e.target.src = mjLogo}
                 onClick={handleProfileButtonClick}
             />
             {showProfileMenu && (
@@ -42,7 +44,12 @@ function App() {
             )}
 
 
-            <Hero showLearnMore={showLearnMore} setShowLearnMore={setShowLearnMore} />
+            <Hero
+                showLearnMore={showLearnMore}
+                setShowLearnMore={setShowLearnMore}
+                mjLogo={mjLogo}
+                mjLogoDark={mjLogoDark}
+            />
             <Skills />
             <Projects />
             <Education />
