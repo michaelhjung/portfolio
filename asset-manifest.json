@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9e015974.css",
-    "main.js": "/static/js/main.bbb2256f.js",
+    "main.js": "/static/js/main.271c8425.js",
     "static/media/michael_audrey.png": "/static/media/michael_audrey.d22d99ce7bf235c86ce8.png",
     "static/media/mj.jpg": "/static/media/mj.f9498047bec27bf08798.jpg",
     "static/media/aa-logo.png": "/static/media/aa-logo.2570ee1fb24d44061493.png",
@@ -19,6 +19,7 @@
     "static/media/ExpressJS-Light.svg": "/static/media/ExpressJS-Light.e667359082c6a1e7a37a4a6a67335271.svg",
     "static/media/React-Light.svg": "/static/media/React-Light.859310e341351502b4a2a19a19f7ad32.svg",
     "static/media/Python-Light.svg": "/static/media/Python-Light.2b3e1cac446d5c43d147be232d2108af.svg",
+    "static/media/email.svg": "/static/media/email.a109cb4ed7150ba8683ee83097138c95.svg",
     "static/media/LinkedIn.svg": "/static/media/LinkedIn.a4185a982c50184b0634a12832ad6fc5.svg",
     "static/media/JavaScript.svg": "/static/media/JavaScript.9a071f2801f9f92598764d48c7225305.svg",
     "index.html": "/index.html",
@@ -26,10 +27,10 @@
     "static/media/HTML.svg": "/static/media/HTML.ca0db580ffd74f086f2dc2a71dacd660.svg",
     "static/media/Heroku.svg": "/static/media/Heroku.121dd79ec37f8fd52a7f3d9e011d6aae.svg",
     "main.9e015974.css.map": "/static/css/main.9e015974.css.map",
-    "main.bbb2256f.js.map": "/static/js/main.bbb2256f.js.map"
+    "main.271c8425.js.map": "/static/js/main.271c8425.js.map"
   },
   "entrypoints": [
     "static/css/main.9e015974.css",
-    "static/js/main.bbb2256f.js"
+    "static/js/main.271c8425.js"
   ]
 }
