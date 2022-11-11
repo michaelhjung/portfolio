@@ -152,10 +152,10 @@
 }
 
 #about-text-1 {
-    top: 210px;
-    right: 350px;
+    top: 170px;
+    left: 15px;
     rotate: 0deg;
-    font-size: 3rem;
+    font-size: 5.5rem;
 }
 #about-text-2 {
     top: 370px;
@@ -164,14 +164,14 @@
     font-size: 2.7rem;
 }
 #about-text-3 {
-    top: 415px;
-    left: 105px;
+    top: 410px;
+    left: 37px;
     rotate: 0deg;
-    font-size: 2rem;
+    font-size: 2.9rem;
 }
 #about-text-4 {
     top: 690px;
-    left: 475px;
+    left: 472px;
     rotate: -14deg;
     font-size: 1.7rem;
 }
@@ -180,12 +180,10 @@
     left: -50px;
     rotate: -90deg;
     font-size: 1.7rem;
-    /* color: #444;
-    text-shadow: 2px 2px 0px #777; */
 }
 
 #about-o {
     font-size: 5rem;
     opacity: 0;
-    margin-left: 5px;
+    margin-left: 14px;
 }
