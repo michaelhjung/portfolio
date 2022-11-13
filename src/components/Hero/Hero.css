@@ -87,15 +87,21 @@
     margin: 50px 25px;
 }
 
+.learn-more-pic-container {
+    width: 180px;
+    margin: 0px 50px 0px 0px;
+}
+
 .learn-more-pic {
     width: 180px;
+    object-fit: cover;
     border-radius: 50%;
-    margin: 0px 50px 0px 0px;
 }
 
 .learn-more-text,
 .learn-more-text > ol > li {
     font-family: 'Jost', sans-serif;
+    width: 100%;
 }
 
 .learn-more-text > ol {

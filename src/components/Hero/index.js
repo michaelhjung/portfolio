@@ -45,11 +45,13 @@ export default function Hero({ showLearnMore, setShowLearnMore, mjLogo, mjLogoDa
                 {showLearnMore && (
                     <Modal onClose={handleCloseLearnMoreModal}>
                         <div className='learn-more'>
-                            <img
-                                className='learn-more-pic'
-                                src={profilePic}
-                                alt="michael"
-                            />
+                            <div className='learn-more-pic-container'>
+                                <img
+                                    className='learn-more-pic'
+                                    src={profilePic}
+                                    alt="michael"
+                                />
+                            </div>
                             <div className='learn-more-text'>
                                 I'm a UC Berkeley alumnus and a Master's-prepared Nurse turned Software Engineer. Why the career change?
                                 Two of my biggest fills are:
