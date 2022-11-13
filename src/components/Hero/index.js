@@ -32,6 +32,7 @@ export default function Hero({ showLearnMore, setShowLearnMore, mjLogo, mjLogoDa
 
     return (
         <div className='hero-about-container' id="about">
+            <h2 id="hero-sub-heading" className='hero-text'>I used to handle crud. Now, I handle CRUD.</h2>
             <div className="hero-container">
                 <img src={hero} alt="hero" id="hero-img" />
                 <h1 id="hero-heading" className="hero-text">Michael Jung, <br />Software Engineer</h1>

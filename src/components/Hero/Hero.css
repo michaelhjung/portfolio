@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 70px;
     width: 800px;
     height: 1066px;
 }
@@ -37,9 +37,18 @@
 #hero-heading {
     margin: 0;
     font-size: 3rem;
-    top: 20px;
+    top: 10px;
     color: cadetblue;
     background-color: transparent;
+}
+
+#hero-sub-heading {
+    font-size: 1.5rem;
+    /* top: 140px; */
+    top: 0px;
+    color: #555;
+    background-color: transparent;
+    /* text-shadow: 1px 1px 30px #999; */
 }
 
 .greeting {
@@ -162,31 +171,31 @@
 }
 
 #about-text-1 {
-    top: 170px;
+    top: 215px;
     left: 15px;
     rotate: 0deg;
     font-size: 5.5rem;
 }
 #about-text-2 {
-    top: 370px;
+    top: 415px;
     left: 630px;
     rotate: 90deg;
     font-size: 2.7rem;
 }
 #about-text-3 {
-    top: 410px;
+    top: 455px;
     left: 37px;
     rotate: 0deg;
     font-size: 2.9rem;
 }
 #about-text-4 {
-    top: 690px;
+    top: 745px;
     left: 472px;
     rotate: -14deg;
     font-size: 1.7rem;
 }
 #about-text-5 {
-    top: 650px;
+    top: 695px;
     left: -50px;
     rotate: -90deg;
     font-size: 1.7rem;
