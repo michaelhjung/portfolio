@@ -55,18 +55,18 @@ export default function Hero({ showLearnMore, setShowLearnMore, mjLogo, mjLogoDa
                             </div>
                             <div className='learn-more-text'>
                                 <div className='learn-more-text-section'>
-                                    I'm a <i>UC Berkeley alumnus</i> and a Master's-prepared <i>nurse</i>🩺 turned <strong>Software Engineer</strong> 👨🏻‍💻.
+                                    I'm a <i>UC Berkeley alumnus</i>👨🏻‍🎓 and a Master's-prepared <i>nurse</i>🩺 turned <strong>Software Engineer</strong> 👨🏻‍💻.
                                 </div>
 
                                 <div className='learn-more-text-section'>
                                     <strong>Why the career change</strong>?
                                     Although I was good at what I did and loved the people I worked with, my favorite part about nursing was the problem solving 🧩.
                                     I loved finding ways to think outside the box and utilize the tools & resources I had to make things happen.
-                                    Particularly, I loved using my knowledge of various technological tools to improve mine and other's workflow 📈.
+                                    Particularly, I loved using my knowledge of various technological tools to improve mine and others' workflows 📈.
                                 </div>
 
                                 <div className='learn-more-text-section'>
-                                    On the side, I enjoyed hobbies where I could take blank canvas and build something out of nothing 🎨 (e.g., video editing).
+                                    On the side, I enjoyed hobbies where I could take a blank canvas or a few tools and just build something 🎨 (e.g., video editing, mechanical keyboards, etc).
                                 </div>
 
                                 <div className='learn-more-text-section'>
@@ -76,7 +76,7 @@ export default function Hero({ showLearnMore, setShowLearnMore, mjLogo, mjLogoDa
 
                                 <div className='learn-more-text-section'>
                                     I'm excited to share with you my work and am more than happy to <a className="learn-more-email-link" href="mailto:jung.michaelh@gmail.com" target="_blank" rel="noreferrer">chat ☕️</a> about any questions you may have.
-                                    Check out <a className='learn-more-projects-link' href="#projects">3 of my recent projects</a> below, each completed within 1-2 week timeframes.
+                                    Check out <a className='learn-more-projects-link' href="#projects">3 of my recent projects 📂</a> below, each completed within 1-2 week timeframes.
                                 </div>
                             </div>
                         </div>
