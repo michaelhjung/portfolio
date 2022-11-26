@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c617bf79.css",
-    "main.js": "/static/js/main.c613ac3b.js",
+    "main.css": "/static/css/main.49962841.css",
+    "main.js": "/static/js/main.d9260bba.js",
     "static/media/michael_audrey.png": "/static/media/michael_audrey.d22d99ce7bf235c86ce8.png",
     "static/media/mj.jpg": "/static/media/mj.f9498047bec27bf08798.jpg",
     "static/media/aa-logo.png": "/static/media/aa-logo.2570ee1fb24d44061493.png",
@@ -26,11 +26,11 @@
     "static/media/CSS.svg": "/static/media/CSS.5fcd7f5683afc0fc6d0186a083262016.svg",
     "static/media/HTML.svg": "/static/media/HTML.ca0db580ffd74f086f2dc2a71dacd660.svg",
     "static/media/Heroku.svg": "/static/media/Heroku.121dd79ec37f8fd52a7f3d9e011d6aae.svg",
-    "main.c617bf79.css.map": "/static/css/main.c617bf79.css.map",
-    "main.c613ac3b.js.map": "/static/js/main.c613ac3b.js.map"
+    "main.49962841.css.map": "/static/css/main.49962841.css.map",
+    "main.d9260bba.js.map": "/static/js/main.d9260bba.js.map"
   },
   "entrypoints": [
-    "static/css/main.c617bf79.css",
-    "static/js/main.c613ac3b.js"
+    "static/css/main.49962841.css",
+    "static/js/main.d9260bba.js"
   ]
 }
