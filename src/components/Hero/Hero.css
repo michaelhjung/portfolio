@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
 .hero-about-container {
     display: flex;
     align-items: center;
@@ -116,6 +118,34 @@
 .learn-more-text > ol {
     align-self: flex-start;
     margin: 15px 0px 15px 35px;
+}
+
+.learn-more-text-section {
+    margin-bottom: 18px;
+}
+
+.learn-more-text-section:last-child {
+    margin-bottom: 0px;
+}
+
+.creativity-text {
+    font-family: 'Comforter', serif;
+    font-size: 1.2rem;
+}
+
+.learn-more-email-link {
+    text-decoration: none;
+    font-weight: 700;
+    color: cadetblue;
+}
+
+.learn-more-email-link:hover {
+    text-decoration: underline;
+}
+
+.learn-more-projects-link {
+    text-decoration: underline;
+    color: #000;
 }
 
 @keyframes fade-in-up {

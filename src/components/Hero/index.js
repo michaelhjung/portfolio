@@ -54,15 +54,30 @@ export default function Hero({ showLearnMore, setShowLearnMore, mjLogo, mjLogoDa
                                 />
                             </div>
                             <div className='learn-more-text'>
-                                I'm a UC Berkeley alumnus and a Master's-prepared Nurse turned Software Engineer. Why the career change?
-                                Two of my biggest fills are:
-                                <ol>
-                                    <li>Creating something from nothing</li>
-                                    <li>Discovering clever ways to improve efficiency</li>
-                                </ol>
-                                What I love about coding is that I get to do both!
-                                I'm excited to share with you my work and am more than happy to chat about any questions you may have.
-                                Check out 3 of my projects below, each completed within 1-2 week timeframes.
+                                <div className='learn-more-text-section'>
+                                    I'm a <i>UC Berkeley alumnus</i> and a Master's-prepared <i>nurse</i>🩺 turned <strong>Software Engineer</strong> 👨🏻‍💻.
+                                </div>
+
+                                <div className='learn-more-text-section'>
+                                    <strong>Why the career change</strong>?
+                                    Although I was good at what I did and loved the people I worked with, my favorite part about nursing was the problem solving 🧩.
+                                    I loved finding ways to think outside the box and utilize the tools & resources I had to make things happen.
+                                    Particularly, I loved using my knowledge of various technological tools to improve mine and other's workflow 📈.
+                                </div>
+
+                                <div className='learn-more-text-section'>
+                                    On the side, I enjoyed hobbies where I could take blank canvas and build something out of nothing 🎨 (e.g., video editing).
+                                </div>
+
+                                <div className='learn-more-text-section'>
+                                    Programming affords me the privilege of <strong>blending <span className='creativity-text'>creativity</span> with critical thinking 🧠</strong>.
+                                    I get to build aesthetically pleasing and functionally efficient applications with a user-centered approach.
+                                </div>
+
+                                <div className='learn-more-text-section'>
+                                    I'm excited to share with you my work and am more than happy to <a className="learn-more-email-link" href="mailto:jung.michaelh@gmail.com" target="_blank" rel="noreferrer">chat ☕️</a> about any questions you may have.
+                                    Check out <a className='learn-more-projects-link' href="#projects">3 of my recent projects</a> below, each completed within 1-2 week timeframes.
+                                </div>
                             </div>
                         </div>
                     </Modal>
