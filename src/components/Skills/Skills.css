@@ -53,6 +53,9 @@
 .list-item--skills:nth-child(12) {
     transition: 0.9s ease-in;
 }
+.list-item--skills:nth-child(13) {
+    transition: 0.95s ease-in;
+}
 .list-item--skills:last-child {
     margin-right: 0px;
 }

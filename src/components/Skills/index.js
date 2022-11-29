@@ -12,6 +12,7 @@ import flask from "../../assets/icons/skills/Flask-Light.svg"
 import sqlite from "../../assets/icons/skills/SQLite.svg"
 import postgres from "../../assets/icons/skills/PostgreSQL-Light.svg"
 import heroku from "../../assets/icons/skills/Heroku.svg"
+import aws from "../../assets/icons/skills/AWS-Light.svg"
 
 export default function Skills() {
 
@@ -47,6 +48,7 @@ export default function Skills() {
                 <li className="list-item list-item--skills"><img className="img img--skills" src={sqlite} alt="sqlite" /></li>
                 <li className="list-item list-item--skills"><img className="img img--skills" src={postgres} alt="postgres" /></li>
                 <li className="list-item list-item--skills"><img className="img img--skills" src={heroku} alt="heroku" /></li>
+                <li className="list-item list-item--skills"><img className="img img--skills" src={aws} alt="aws" /></li>
             </ul>
         </section>
     )

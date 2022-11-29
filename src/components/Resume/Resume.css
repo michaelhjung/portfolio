@@ -1,0 +1,16 @@
+.resume-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-img {
+    width: 125px;
+    height: 125px;
+    transition: transform 0.4s ease-out;
+}
+
+.resume-img:hover {
+    transform: scale(1.2);
+}

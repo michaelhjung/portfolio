@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Education from "./components/Eduation";
+import Resume from "./components/Resume";
 import ContactMe from "./components/ContactMe";
 import ProfileMenu from "./components/ProfileMenu";
 import mjLogo from "./assets/logos/mj-logo.png";
@@ -53,6 +54,7 @@ function App() {
             <Skills />
             <Projects />
             <Education />
+            <Resume />
             <ContactMe />
         </div>
     );

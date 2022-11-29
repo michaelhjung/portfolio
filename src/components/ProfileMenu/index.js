@@ -15,6 +15,7 @@ export default function ProfileMenu({ showLearnMore, setShowLearnMore }) {
             <a href="#skills" className='profile-menu-link'>Skills</a>
             <a href="#projects" className='profile-menu-link'>Projects</a>
             <a href="#education" className='profile-menu-link'>Education</a>
+            <a href="https://drive.google.com/uc?export=download&id=1YnV27iuRb4xgSTX5UWGflo7CfXS58Kz2" className='profile-menu-link'>Resume</a>
             <a href="#contact-me" className='profile-menu-link'>Contact Me</a>
             <div className='profile-contact-icons'>
                 <a className="profile-contact-icon" href="mailto:jung.michaelh@gmail.com" target="_blank" rel="noreferrer">
