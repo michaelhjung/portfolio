@@ -12,11 +12,11 @@ export default function ProfileMenu({ showLearnMore, setShowLearnMore }) {
     return (
         <div className='profile-menu'>
             <a href="#about" className='profile-menu-link' onClick={handleAboutClick}>About</a>
-            <a href="#skills" className='profile-menu-link'>Skills</a>
-            <a href="#projects" className='profile-menu-link'>Projects</a>
-            <a href="#education" className='profile-menu-link'>Education</a>
+            <a href="#skills" className='profile-menu-link' onClick={() => setShowLearnMore(false)}>Skills</a>
+            <a href="#projects" className='profile-menu-link' onClick={() => setShowLearnMore(false)}>Projects</a>
+            <a href="#education" className='profile-menu-link' onClick={() => setShowLearnMore(false)}>Education</a>
             <a href="https://drive.google.com/uc?export=download&id=1Ftayh7zYrds7lW0LIamh8yKADQEJ3rU6" className='profile-menu-link'>Resume</a>
-            <a href="#contact-me" className='profile-menu-link'>Contact Me</a>
+            <a href="#contact-me" className='profile-menu-link' onClick={() => setShowLearnMore(false)}>Contact Me</a>
             <div className='profile-contact-icons'>
                 <a className="profile-contact-icon" href="mailto:jung.michaelh@gmail.com" target="_blank" rel="noreferrer">
                     <img className="profile-contact-icon-img" src={email} alt="linked in" />
