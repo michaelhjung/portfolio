@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useRef } from 'react';
 import { Modal } from '../../context/Modal';
 import hero from "../../assets/michael_audrey.png";
 import profilePic from "../../assets/mj.jpg";
