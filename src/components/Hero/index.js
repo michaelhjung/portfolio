@@ -76,7 +76,7 @@ export default function Hero({ showLearnMore, setShowLearnMore, mjLogo, mjLogoDa
 
                                 <div className='learn-more-text-section'>
                                     I'm excited to share with you my work and am more than happy to <a className="learn-more-email-link" href="mailto:jung.michaelh@gmail.com" target="_blank" rel="noreferrer">chat ☕️</a> about any questions you may have.
-                                    Check out <a className='learn-more-projects-link' href="#projects">3 of my recent projects 📂</a> below, each completed within 1-2 week timeframes.
+                                    Check out <a className='learn-more-projects-link' href="#projects" onClick={() => setShowLearnMore(false)}>3 of my recent projects 📂</a> below, each completed within 1-2 week timeframes.
                                 </div>
                             </div>
                         </div>
