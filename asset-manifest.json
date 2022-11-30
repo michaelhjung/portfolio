@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7f306d6a.css",
-    "main.js": "/static/js/main.5ea3cc5e.js",
+    "main.js": "/static/js/main.57c2449d.js",
     "static/media/michael_audrey.png": "/static/media/michael_audrey.d22d99ce7bf235c86ce8.png",
     "static/media/mj.jpg": "/static/media/mj.f9498047bec27bf08798.jpg",
     "static/media/aa-logo.png": "/static/media/aa-logo.2570ee1fb24d44061493.png",
@@ -29,10 +29,10 @@
     "static/media/HTML.svg": "/static/media/HTML.ca0db580ffd74f086f2dc2a71dacd660.svg",
     "static/media/Heroku.svg": "/static/media/Heroku.121dd79ec37f8fd52a7f3d9e011d6aae.svg",
     "main.7f306d6a.css.map": "/static/css/main.7f306d6a.css.map",
-    "main.5ea3cc5e.js.map": "/static/js/main.5ea3cc5e.js.map"
+    "main.57c2449d.js.map": "/static/js/main.57c2449d.js.map"
   },
   "entrypoints": [
     "static/css/main.7f306d6a.css",
-    "static/js/main.5ea3cc5e.js"
+    "static/js/main.57c2449d.js"
   ]
 }
