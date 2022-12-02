@@ -6,7 +6,7 @@ export default function Resume() {
         <section className="resume-container" id="resume">
             <h2>Resume</h2>
             <div className="resume-icons-container">
-                <a className="resume-icon" href="https://drive.google.com/uc?export=download&id=1HZ_ZhLtPZO8zwFgxSXqB9lhuHESxrmBZ">
+                <a className="resume-icon" href="https://drive.google.com/uc?export=download&id=1CDSf0b-W_MbfSI6V6WNLFGt4-LHGnDJK">
                     <img className="resume-img" src={resume} alt="resume" />
                 </a>
             </div>
